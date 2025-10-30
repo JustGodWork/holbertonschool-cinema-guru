@@ -1,0 +1,42 @@
+/* Basic styles for authentication routes */
+.auth-container {
+  max-width: 420px;
+  margin: 48px auto;
+  padding: 24px;
+  border: 1px solid #e6e9ee;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(12, 32, 63, 0.04);
+}
+
+.auth-header {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.auth-toggle-btn {
+  flex: 1 1 auto;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background: #f3f4f6;
+}
+
+.auth-toggle-btn.active {
+  background: #1f6feb;
+  color: white;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-actions {
+  display:flex;
+  justify-content: flex-end;
+  gap:8px;
+}
