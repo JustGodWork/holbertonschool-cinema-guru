@@ -1,0 +1,92 @@
+/* General styles for common components used across the app */
+
+:root{
+  --cg-border: #e6e9ee;
+  --cg-bg: #ffffff;
+  --cg-accent: #1f6feb; /* primary color */
+  --cg-text: #0b1220;
+  --cg-muted: #6b7280;
+  --cg-radius: 8px;
+  --cg-padding: 10px 12px;
+}
+
+.cg-input-wrapper,
+.cg-select-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-family: inherit;
+}
+
+.cg-input-label,
+.cg-select-label {
+  font-size: 0.85rem;
+  color: var(--cg-muted);
+}
+
+.cg-input-inner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--cg-bg);
+  border: 1px solid var(--cg-border);
+  padding: 6px 10px;
+  border-radius: var(--cg-radius);
+}
+
+.cg-input-icon,
+.cg-button-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cg-muted);
+}
+
+.cg-input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: var(--cg-text);
+  background: transparent;
+  flex: 1 1 auto;
+}
+
+.cg-select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--cg-radius);
+  border: 1px solid var(--cg-border);
+  background: var(--cg-bg);
+  color: var(--cg-text);
+  font-size: 1rem;
+}
+
+.cg-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  background: var(--cg-accent);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cg-button:active { transform: translateY(1px); }
+
+.cg-searchbar-wrapper {
+  width: 100%;
+}
+
+.cg-searchbar {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--cg-border);
+  background: var(--cg-bg);
+  color: var(--cg-text);
+}
+
+.cg-button-label { display: inline-block }
