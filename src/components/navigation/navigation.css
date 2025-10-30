@@ -1,0 +1,16 @@
+/* Navigation header styles */
+.cg-nav {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:12px 18px;
+  border-radius:10px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(12,32,63,0.04);
+}
+
+.cg-nav-left { display:flex; align-items:center; gap:12px }
+.cg-avatar { width:48px; height:48px; border-radius:50%; object-fit:cover }
+.cg-welcome { font-weight:600 }
+.cg-logout { cursor:pointer; display:flex; align-items:center; gap:8px; color:#ef4444 }
