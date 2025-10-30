@@ -1,0 +1,9 @@
+/* Misc components styles */
+.cg-activity-list { list-style: none; padding: 0; margin: 0; }
+.cg-activity-item { padding: 8px 10px; border-bottom: 1px solid #f1f5f9 }
+.cg-activity-text { margin: 0; font-size: 0.95rem }
+
+.cg-sidebar { width: 240px; padding: 12px; border-radius: 8px; background: #fff }
+.cg-sidebar .nav-list { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px }
+.cg-sidebar .nav-item { padding:8px; cursor:pointer; border-radius:6px }
+.cg-sidebar .nav-item.active { background:#eef2ff }
